@@ -1,0 +1,7 @@
+vigtige elementer ti leksamen:
+
+semantiske tag
+hvorfor er det html-5 (der er flere elementer)
+hvordan gør man det responsivt (der er flere måder: 1. scaleble images. 2. a fluid layout. 3. the use of media queries.)
+
+!doctype, utf-8
