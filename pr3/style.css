@@ -123,7 +123,7 @@ nav{
   text-align: center;
   white-space: nowrap;
   margin-top: 0px;
-  margin-bottom: -5%;
+  margin-bottom: -1%;
   position: relative;
   z-index: 2;
 }
@@ -135,25 +135,16 @@ nav{
   margin-bottom: -3%;
   position: sticky;
   position: -webkit-sticky;
+  margin-bottom: 35%;
+  padding-bottom: 37%;
   padding: 1%;
   top: -3vw;
-  z-index: 1;
-  border-bottom: 2px solid #000000;
-}
-
-@media (min-width: 300px) {
-  .navigation{
+  margin-top: -40%;
     font-size: 2.3vw;
     width: 70%;
     white-space: nowrap;
-  }
-}
-
-@media (max-width: 300px) {
-  .navigation{
-    font-size: 12px;
-    display: grid;
-  }
+  z-index: 1;
+  border-bottom: 2px solid #000000;
 }
 
 .menu {
@@ -221,12 +212,14 @@ border-bottom-right-radius: 400px;
   margin-right: 8%;
   margin-left: 57%;
   z-index: 1;
+  font-size: 3.5vw;
+    margin-top: 6%;
 }
 
 @media (min-width: 300px) {
   .scrt{
-    font-size: 3.7vw;
-    margin-top: 10%;
+    font-size: 3.5vw;
+    margin-top: 8%;
   }
   .scratch{
     height: 70%;
@@ -235,8 +228,8 @@ border-bottom-right-radius: 400px;
 
 @media (max-width: 300px) {
   .scrt{
-    margin-top: 22%;
-    font-size: 3.5vw;
+    margin-top: 10%;
+    font-size: 2.5vw;
   }
   .scratch{
     height: 55%;
@@ -881,11 +874,4 @@ margin-right: 10%;
   height: 80%;
   margin-left: 10%;
   margin-top: 10%;
-}
-
-iframe{
-  width: 560
-  height: 315 
-  frameborder=: 0
-  allowfullscreen
 }
