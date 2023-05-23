@@ -1,0 +1,877 @@
+body {
+  background-color: #ffbb00; 
+  margin: 0;
+  
+}
+
+header {
+  background-color: #ffbb00;
+  position: relative;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+h2{
+  color: #ffffff;
+  background-color: #000000;
+  white-space: nowrap;
+  font-family: 'Trebuchet MS';
+  padding-left: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 30%;
+}
+
+@media only screen and (min-width: 1024px) {
+  h2{
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h2{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h2{
+    font-size: 20px;
+  }
+}
+
+h3{
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  font-family: 'Trebuchet MS';
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+@media only screen and (min-width: 1024px) {
+  h3{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h3{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h3{
+    font-size: 15px;
+  }
+}
+
+h4{
+  color: #000000;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+}
+
+@media only screen and (min-width: 360px) {
+  h4{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h4{
+    font-size: 10px;
+  }
+}
+
+p{
+  color: #000000;
+  font-family: 'Trebuchet MS';
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+nav{
+  font-weight: 600;
+}
+
+.headline {
+  font-size: 9vw;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 0px;
+  margin-bottom: -1%;
+  position: relative;
+  z-index: 2;
+}
+
+.navigation {
+  background-color: #ffbb00;
+  border-radius: 50px;
+  margin: auto;
+  margin-bottom: -3%;
+  position: sticky;
+  position: -webkit-sticky;
+  margin-bottom: 35%;
+  padding-bottom: 37%;
+  padding: 1%;
+  top: -3vw;
+  margin-top: -40%;
+    font-size: 2.3vw;
+    width: 70%;
+    white-space: nowrap;
+  z-index: 1;
+  border-bottom: 2px solid #000000;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.menu li {
+  display: inline-block;
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.menu li a {
+  display: inline-block;
+  font-family: Trebuchet, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+}
+
+.menu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  height: 2px;
+  margin-bottom: -5px;
+  background-color: #000000;
+  width: 0;
+  transition: width 0.2s ease;
+}
+
+.menu li a:hover::after {
+  width: 100%; 
+}
+
+
+.migforside {
+  width: 100%;
+  margin-bottom: -1%;
+}
+
+.scratch {
+position: absolute;
+width: 40%;
+margin-left: 55%;
+border-bottom-left-radius: 400px;
+border-bottom-right-radius: 400px;
+}
+
+.scrt{
+  color: #000000;
+  font-family: 'Trebuchet MS';
+  font-weight: 1000;
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  rotate: 15deg;
+  margin-right: 8%;
+  margin-left: 57%;
+  z-index: 1;
+  font-size: 3.5vw;
+    margin-top: 6%;
+}
+
+@media (min-width: 300px) {
+  .scrt{
+    font-size: 3.5vw;
+    margin-top: 8%;
+  }
+  .scratch{
+    height: 70%;
+  }
+}
+
+@media (max-width: 300px) {
+  .scrt{
+    margin-top: 10%;
+    font-size: 2.5vw;
+  }
+  .scratch{
+    height: 55%;
+  }
+}
+
+.ommig {
+  position: relative; 
+  margin-left: 4%;
+  padding: 10px;
+}
+
+@media (min-width: 1023px) {
+  .ommig{
+    width: 55%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .ommig{
+    width: 86%;
+  }
+}
+
+.ommigboks {
+  background-color: #FFEDA1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: -200px;
+  z-index: -1;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+.selvp {
+  border-radius: 20px;
+  border: 5px solid #000000;
+}
+
+@media (min-width: 1023px) {
+  .selvp {
+    position: absolute;
+    width:36%;
+    margin-left: 62%;
+    top: 1000px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .selvp {
+    position: relative;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 10px;
+    top: 100%;
+      }
+}
+
+.linje1{
+  background-color: #BDBCB9;
+  width: 100%;
+  height: 10px;
+  margin-top: 15%;
+}
+
+.overskrift2{
+  margin-top: 10%;
+}
+
+.erfaring {
+ background-color: #FFEDA1;
+ position: relative; 
+ width: 80%;
+ z-index: -1;
+ border-radius: 20px;
+ border: 2px solid #000000;
+ margin-left: -25px;
+ padding-right: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+  .erfaring{
+    margin-top: -45px;
+    display: flex; 
+  }
+  .eft{
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .erfaring{
+    margin-top: -30px; 
+  }
+  .eft{
+    padding-left: 20%;
+  }
+  .erfaringikoner{
+    padding-left: 20%;
+  }
+}
+
+.erfaringikoner {
+ list-style: none;
+ display: flex; 
+ flex-wrap: wrap; 
+ margin-top: 40px;
+}
+
+.erfaringikoner img {
+ width: 75%;
+}
+
+.uo1 {
+  position: relative;
+  margin-bottom: -30px;
+}
+
+@media only screen and (min-width: 500px) {
+.uo1 {
+  white-space: nowrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .uo1{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 30%;
+  }
+}
+
+.efudd {
+  background-color: #FFEDA1;
+  position: relative;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .efudd {
+    margin-top: 60px;
+    margin-left: 18%;
+    width: 700px;
+  }
+  .efuddv {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .efudd {
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 5%;
+    width: 80%;
+  }
+  .efuddv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .efudd {
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-left: 5%;
+    width: 80%;
+  }
+  .efuddv {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.efuddv {
+  display: grid;
+  padding-left: 1%;
+}
+
+.efuddv li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.efuddv ul {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .efuddv img {
+    width: 160px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .efuddv img {
+    width: 60%;
+  }
+}
+
+.efudd li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 30%;
+  height: 2px;
+  margin-left: 25%;
+  margin-bottom: -5px;
+  background-color: #000000;
+  width: 0;
+  transition: width 0.2s ease;
+}
+
+.efudd li a:hover::after {
+  width: 50%; 
+  margin-left: 25%;
+}
+
+.sevideo{
+  color: #000000;
+  background-color: #ffbb00;
+  white-space: nowrap;
+  font-family: 'Trebuchet MS';
+  border-radius: 20px;
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: -10px;
+}
+
+.sevideo a {
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .sevideo {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1023px) {
+  .sevideo {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .sevideo {
+    font-size: 14px;
+  }
+}
+
+.uo2 {
+  position: relative;
+  margin-top: 10%;
+}
+
+@media only screen and (min-width: 500px) {
+.uo2 {
+  white-space: nowrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-right: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .uo2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-right: 30%;
+  }
+}
+
+.efuudd {
+  display: flex; 
+  grid-gap: 5%;
+  padding: 5%;
+  margin-top: -5%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .efuudd {
+    flex-wrap: wrap;
+  }
+}
+
+.s1{
+  background-color: #FFEDA1;
+  position: relative;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  padding: 5%;
+  width: 35%;
+  list-style: none;
+  margin-bottom: 10%;
+}
+
+.s2{
+  background-color: #FFEDA1;
+  position: relative;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  padding: 5%;
+  width: 35%;
+  list-style: none; 
+  margin-bottom: 10%;
+}
+
+.s3{
+  background-color: #FFEDA1;
+  position: relative;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  padding: 5%;
+  width: 35%;
+  list-style: none;
+  margin-bottom: 10%;
+}
+
+.s4{
+  background-color: #FFEDA1;
+  position: relative;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  padding: 5%;
+  width: 35%;
+  list-style: none;
+  margin-bottom: 10%;
+}
+
+.spring {
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid #000000;
+}
+
+.kruuse {
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid #000000;
+}
+
+.heatpine {
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid #000000;
+}
+
+.palm {
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid #000000;
+}
+
+.sevideo1{
+  color: #000000;
+  background-color: #ffbb00;
+  white-space: nowrap;
+  font-family: 'Trebuchet MS';
+  border-radius: 20px;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.sevideo1 a {
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .sevideo1 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1023px) {
+  .sevideo1 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .sevideo1 {
+    font-size: 14px;
+  }
+}
+
+.efuudd li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 30%;
+  height: 2px;
+  margin-left: 25%;
+  margin-bottom: -5px;
+  background-color: #000000;
+  width: 0;
+  transition: width 0.2s ease;
+}
+
+.efuudd li a:hover::after {
+  width: 50%; 
+  margin-left: 25%;
+}
+
+.uo3 {
+  position: relative;
+  margin-top: -10%;
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 500px) {
+.uo3 {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .uo3{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 30%;
+  }
+}
+
+.du{
+  margin-top: -10%;
+}
+
+.tekstur {
+  position: absolute;
+  z-index: -1;
+  border-radius: 100px;
+  border: 2px solid #000000;
+}
+
+@media only screen and (min-width: 1000px) {
+  .tekstur {
+    margin-left: 10%;
+    height: 40vw;
+    width: 80%;
+  }
+  .shoot {
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 15%;
+    margin-top: 7%;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .tekstur {
+    margin-left: 5%;
+    height: 130vw;
+    width: 90%;
+  }
+  .shoot {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 15%;
+    margin-top: 7%;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .tekstur {
+    margin-left: 5%;
+    height: 520vw;
+    width: 90%;
+  }
+  .shoot {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 17%;
+    margin-top: 22%;
+    width: 70%;
+  }
+}
+
+.shoot {
+  position: absolute;
+  display: grid;
+  grid-gap: 20px;
+  padding-left: 1%;
+}
+
+.shoot li {
+  list-style-type: none;
+}
+
+.shoot img{
+  width: 95%;
+  border-radius: 20px;
+  border: 5px solid #000000;
+}
+
+.linje2{
+  background-color: #BDBCB9;
+  width: 100%;
+  height: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .linje2{
+    margin-top: 50%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .linje2{
+margin-top: 150%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .linje2{
+    margin-top: 580%;
+  }
+}
+
+.overskrift3{
+position: relative;
+  margin-top: 10%;
+}
+
+.kontakt {
+ background-color: #FFEDA1;
+ width: 80%;
+ border-radius: 20px;
+ border: 2px solid #000000;
+ padding: 1%;
+ text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .kontakt{
+    margin-top: -45px;
+    margin-left: 10%;
+  }
+  .kt{
+    margin-top: 40px;
+  }
+  .in {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 30%;
+
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .kontakt{
+    margin-top: -30px; 
+  }
+  .kt{
+    margin-left: 20vw;
+  }
+}
+
+.ant {
+  position: relative; 
+  margin-left: 4%;
+  padding: 10px;
+  width: 86%;
+}
+
+.sprite{
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 25%;
+  width:357px;
+  height:357px;
+  background: url('mandemand.jpg') 0 0 no-repeat;
+  animation: play 8s steps(42) infinite;
+}
+
+@keyframes play {
+0%{background-position:0%;}
+100%{background-position:-14999px;}
+}
+
+.storyboard{
+width: 90%;
+margin-left: 5%;
+}
+
+.mdv{
+padding-left: 10%;
+margin-right: 10%;
+}
+
+.sb{
+  padding-left: 20%;
+  margin-left: 10%;
+}
+
+.subboks {
+  background-color: #FFEDA1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: -35px;
+  z-index: -1;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
