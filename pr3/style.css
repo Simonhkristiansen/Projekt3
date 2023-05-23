@@ -772,7 +772,6 @@ margin-top: 150%;
 }
 
 .overskrift3{
-position: relative;
   margin-top: 10%;
 }
 
@@ -783,11 +782,11 @@ position: relative;
  border: 2px solid #000000;
  padding: 1%;
  text-align: center;
+ margin-top: 5%;
 }
 
 @media only screen and (min-width: 768px) {
   .kontakt{
-    margin-top: -45px;
     margin-left: 10%;
   }
   .kt{
@@ -796,15 +795,12 @@ position: relative;
   .in {
     position: absolute;
     margin-top: -120px;
-    margin-left: 30%;
+    margin-left: 25%;
 
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .kontakt{
-    margin-top: -30px; 
-  }
   .kt{
     margin-left: 20vw;
   }
